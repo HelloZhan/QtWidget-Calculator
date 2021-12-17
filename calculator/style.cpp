@@ -1,0 +1,98 @@
+#include "count.h"
+void Counter::forbitallbutton()//将全部按钮设置为禁止使用
+{
+    pushButton0->setEnabled(false);
+    pushButton1->setEnabled(false);
+    pushButton2->setEnabled(false);
+    pushButton3->setEnabled(false);
+    pushButton4->setEnabled(false);
+    pushButton5->setEnabled(false);
+    pushButton6->setEnabled(false);
+    pushButton7->setEnabled(false);
+    pushButton8->setEnabled(false);
+    pushButton9->setEnabled(false);
+    pushButtonjia->setEnabled(false);
+    pushButtonjian->setEnabled(false);
+    pushButtonchen->setEnabled(false);
+    pushButtonchu->setEnabled(false);
+    pushButtondian->setEnabled(false);
+    pushButtonz->setEnabled(false);
+    pushButtony->setEnabled(false);
+    pushButtoncifang->setEnabled(false);
+    pushButtonsin->setEnabled(false);
+    pushButtoncos->setEnabled(false);
+    pushButtontan->setEnabled(false);
+    pushButtonkaifang->setEnabled(false);
+    pushButtonC->setEnabled(false);
+    pushButtontui->setEnabled(false);
+    pushButtonok->setEnabled(false);
+    pushButtonclear->setEnabled(false);
+    pushButtonretain->setEnabled(false);
+}
+
+void Counter::enableallbutton()//将全部按钮设置为允许使用
+{
+    pushButton0->setEnabled(true);
+    pushButton1->setEnabled(true);
+    pushButton2->setEnabled(true);
+    pushButton3->setEnabled(true);
+    pushButton4->setEnabled(true);
+    pushButton5->setEnabled(true);
+    pushButton6->setEnabled(true);
+    pushButton7->setEnabled(true);
+    pushButton8->setEnabled(true);
+    pushButton9->setEnabled(true);
+    pushButtonjia->setEnabled(true);
+    pushButtonjian->setEnabled(true);
+    pushButtonchen->setEnabled(true);
+    pushButtonchu->setEnabled(true);
+    pushButtondian->setEnabled(true);
+    pushButtonz->setEnabled(true);
+    pushButtony->setEnabled(true);
+    pushButtoncifang->setEnabled(true);
+    pushButtonsin->setEnabled(true);
+    pushButtoncos->setEnabled(true);
+    pushButtontan->setEnabled(true);
+    pushButtonkaifang->setEnabled(true);
+    pushButtonC->setEnabled(true);
+    pushButtontui->setEnabled(true);
+    pushButtonok->setEnabled(true);
+    pushButtonclear->setEnabled(true);
+    pushButtonretain->setEnabled(true);
+}
+
+void Counter::setstyle()//设置样式
+{
+    this->setStyleSheet("Qwhiteidget{background-color:black}");
+    QFont font("Microsoft YaHei",20,50);//设置label的字体样式
+    label->setFont(font);
+    label->setFrameShape(QFrame::Box);
+    label->setStyleSheet("border-whiteidth:1px;border-style:solid;border-color:rgb(255,170,0);");
+    pushButton0->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButton1->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButton2->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButton3->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButton4->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButton5->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButton6->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButton7->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButton8->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButton9->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonjia->setStyleSheet("QPushButton{background-color:#FFD700;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonjian->setStyleSheet("QPushButton{background-color:#FFD700;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonchen->setStyleSheet("QPushButton{background-color:#FFD700;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonchu->setStyleSheet("QPushButton{background-color:#FFD700;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtondian->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonz->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtony->setStyleSheet("QPushButton{background-color:white;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtoncifang->setStyleSheet("QPushButton{background-color:#ADD8E6;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonsin->setStyleSheet("QPushButton{background-color:#ADD8E6;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtoncos->setStyleSheet("QPushButton{background-color:#ADD8E6;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtontan->setStyleSheet("QPushButton{background-color:#ADD8E6;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonkaifang->setStyleSheet("QPushButton{background-color:#ADD8E6;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonC->setStyleSheet("QPushButton{background-color:#B0C4DE;color:black;border-radius:10px;font-size:14pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtontui->setStyleSheet("QPushButton{background-color:#B0C4DE;color:black;border-radius:10px;font-size:14pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonok->setStyleSheet("QPushButton{background-color:#98FB98;color:black;border-radius:10px;font-size:15pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonclear->setStyleSheet("QPushButton{background-color:#B0C4DE;color:black;border-radius:10px;font-size:14pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+    pushButtonretain->setStyleSheet("QPushButton{background-color:#B0C4DE;color:black;border-radius:10px;font-size:14pt}QPushButton:disabled{background-color:#D3D3D3;}QPushButton:pressed{background-color:#00BFFF;}");
+}
